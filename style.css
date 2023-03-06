@@ -110,8 +110,10 @@ h5{
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 50px;
     gap: 200px;
     background-color: #3882f6;
     border-radius: 10px;
@@ -119,4 +121,12 @@ h5{
 
 .sign-up h3{
     margin: 0;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #1f2937;
 }
