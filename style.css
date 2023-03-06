@@ -1,3 +1,6 @@
+html{
+    font-family: 'Roboto', 'Courier New', Courier, monospace;
+}
 
 header{
     display: flex;
@@ -40,12 +43,21 @@ ul{
     color: #E5E7EB;
 }
 
+.left button{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-size: 24px;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
 .left{
     width: 49%;
     height: 200px;
     display: inline-block;
     padding-bottom: 50px;
-    
 }
 
 .right {
@@ -63,6 +75,8 @@ h2{
     display: flex;
     justify-content: center;
     padding-bottom: 32px;
+    font-size: 36px;
+    font-weight: 800;
 }
 
 .box img{
@@ -81,6 +95,8 @@ h2{
 .info{
     max-width: 200px;
     text-align: center;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 h4{
@@ -92,6 +108,8 @@ h4{
     padding-left: 200px;
     padding-right: 200px;
     margin-bottom: 0;
+    font-size: 36px;
+    color: #1f2937;
 }
 
 h5{
@@ -102,6 +120,7 @@ h5{
     padding-bottom: 100px;
     background-color: #E5E7EB;
     font-size: 24px;
+    color: #1f2937;
 }
 
 .banner{
@@ -121,6 +140,25 @@ h5{
 
 .sign-up h3{
     margin: 0;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.sign-up p{
+    margin: 0;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.banner button{
+    color: #F9FAF8;
+    border-radius: 10px;
+    background-color: #3882f6;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: white;
 }
 
 footer{
@@ -129,4 +167,6 @@ footer{
     padding-top: 25px;
     padding-bottom: 25px;
     background-color: #1f2937;
+    color: #E5E7EB;
+    font-size: 18px;
 }
